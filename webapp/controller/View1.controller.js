@@ -10,6 +10,10 @@ sap.ui.define([
         return Controller.extend("project1.controller.View1", {
             onInit: function () {
                 alert("Hello Probosys!");
+                this.fnOnSave();
+            },
+            fnOnSave: function () {
+                alert("Hello Vrundavani!");
             }
         });
     });
