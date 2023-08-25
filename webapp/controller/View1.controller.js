@@ -11,9 +11,13 @@ sap.ui.define([
             onInit: function () {
                 alert("Hello Probosys!");
                 this.fnOnSave();
+                this.fnOnClose();
             },
             fnOnSave: function () {
                 alert("Hello Vrundavani!");
+            },
+            fnOnClose: function () {
+                alert("Hello Nitin!");
             }
         });
     });
