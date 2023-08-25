@@ -17,7 +17,7 @@ sap.ui.define([
                 alert("Hello Vrundavani!");
             },
             fnOnClose: function () {
-                alert("Hello Nitin!");
+                alert("Hello Nitin!!!!!");
             }
         });
     });
