@@ -14,7 +14,7 @@ sap.ui.define([
                 this.fnOnClose();
             },
             fnOnSave: function () {
-                alert("Hello Vrundavani!");
+                alert("Hello Vrundavani!!");
             },
             fnOnClose: function () {
                 alert("Hello Nitin!!!!!");
